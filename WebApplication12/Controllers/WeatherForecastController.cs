@@ -23,6 +23,10 @@ namespace WebApplication12.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// This is the get
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {

@@ -12,6 +12,9 @@ using System.Threading.Tasks;
 
 namespace WebApplication12
 {
+    /// <summary>
+    /// This is startup class
+    /// </summary>
     public class Startup
     {
         public Startup(IConfiguration configuration)
